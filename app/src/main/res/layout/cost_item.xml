@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:layout_margin="4dp">
+    <TextView
+        android:id="@+id/cost_title"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:text="标题dddddddddd"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/cost_date"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="2017-03-02"
+        android:layout_alignTop="@+id/cost_title"
+        android:layout_toRightOf="@+id/cost_title"
+        android:layout_toEndOf="@+id/cost_title"/>
+
+    <TextView
+        android:id="@+id/cost_money"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="20"
+        android:textSize="18dp"/>
+
+
+
+
+</RelativeLayout>
